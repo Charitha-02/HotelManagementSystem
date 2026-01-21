@@ -1,43 +1,86 @@
 # Hotel Management System
 
-A Java-based Hotel Management System developed to manage hotel operations such as room booking, customer management, check-in/check-out, and billing. This project demonstrates core Java programming, GUI development, and database connectivity concepts.
+A complete Java-based Hotel Management System designed to automate hotel operations such as room booking, customer handling, check-in/check-out, and billing management.  
+The application provides a simple and interactive graphical interface using Java Swing and ensures reliable data storage using MySQL.
 
 ---
 
-## 📌 Project Overview
+## 📘 Introduction
 
-The Hotel Management System is a desktop application built using **Java Swing** for the graphical user interface and **MySQL** for backend data storage.  
-It helps hotel staff efficiently handle daily hotel operations and reduces manual record keeping.
+The Hotel Management System is a desktop-based application developed to simplify the management of hotel services.  
+Traditional hotel operations involve manual record keeping, which can lead to errors, data loss, and inefficiency.  
+This system automates those processes and improves accuracy, speed, and reliability.
 
-This project was adapted from an open-source GitHub repository and enhanced for academic and learning purposes.
+The project simulates a real-world hotel workflow and demonstrates how software solutions can be applied in hospitality management.
+
+---
+
+## 🎯 Objectives
+
+- To reduce manual work in hotel management  
+- To manage customer and room records efficiently  
+- To provide quick booking and billing services  
+- To maintain accurate and secure hotel data  
+- To understand real-world Java application development  
 
 ---
 
 ## 🚀 Features
 
-- User login system  
-- Room booking and reservation management  
-- Customer information management  
-- Check-in and check-out functionality  
-- Automatic bill generation  
-- Room availability tracking  
-- Database integration using JDBC  
-- Easy-to-use Java Swing interface  
+- Secure login system for staff  
+- Customer registration and management  
+- Room allocation based on availability  
+- Check-in and check-out handling  
+- Automatic bill calculation  
+- Room status update (Available / Occupied)  
+- Database integration using MySQL  
+- User-friendly Java Swing GUI  
+- Error handling and validation  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Java (Core Java)
-- Java Swing
-- JDBC (Java Database Connectivity)
-- MySQL
-- VS Code
-- Git & GitHub
+- **Programming Language:** Java  
+- **GUI Framework:** Java Swing  
+- **Database:** MySQL  
+- **Connectivity:** JDBC  
+- **IDE:** VS Code / Eclipse  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🧩 System Modules
+
+### 1. Login Module
+- Authenticates hotel staff
+- Provides secure system access
+
+### 2. Customer Module
+- Add new customers
+- Store personal and identity details
+- Assign rooms during check-in
+
+### 3. Room Management Module
+- Displays available and occupied rooms
+- Automatically updates room status
+
+### 4. Booking Module
+- Handles room reservations
+- Links customers with room data
+
+### 5. Billing Module
+- Calculates total bill based on stay duration
+- Displays deposit and final amount
+
+### 6. Database Module
+- Stores customer, room, and booking data
+- Ensures persistent storage
 
 ---
 
 ## 📂 Project Structure
+
 HotelManagementSystem/
 │
 ├── src/
@@ -47,25 +90,111 @@ HotelManagementSystem/
 │ └── ui/
 │
 ├── images/
+│ ├── login.png
+│ ├── dashboard.png
+│ ├── booking.png
+│ └── billing.png
+│
+├── queries.sql
+└── README.mdHotelManagementSystem/
+│
+├── src/
+│ ├── database/
+│ ├── model/
+│ ├── service/
+│ └── ui/
+│
+├── images/
+│ ├── login.png
+│ ├── dashboard.png
+│ ├── booking.png
+│ └── billing.png
+│
 ├── queries.sql
 └── README.md
+
 
 ---
 
 ## ⚙️ Prerequisites
 
-Ensure the following software is installed before running the project:
+Before running the project, ensure the following are installed:
 
-- Java JDK 8 or higher
-- MySQL Server
-- VS Code or any Java IDE
-- Git (optional)
+- Java JDK 8 or higher  
+- MySQL Server  
+- VS Code or any Java IDE  
+- Git (optional)  
 
 ---
 
-## 🧩 Database Setup
+## 🗄️ Database Configuration
 
-1. Start the MySQL server.
+1. Start MySQL server.
 2. Create a database:
    ```sql
    CREATE DATABASE hotel_db;
+Select the database:
+
+USE hotel_db;
+
+
+Import SQL file:
+
+source queries.sql;
+
+
+Update database credentials inside the Java connection file.
+▶️ How to Run the Application
+
+Clone or download the repository.
+
+Open the project in VS Code or Eclipse.
+
+Ensure MySQL server is running.
+
+Compile and run the main Java file.
+
+The Hotel Management System window will appear.
+
+📸 Screenshots
+
+Screenshots of the application interface are available in the images folder.
+
+Login Page
+
+Dashboard
+
+Customer Registration
+
+Room Booking
+
+Billing Window
+
+📚 Learning Outcomes
+
+Through this project, the following concepts were practiced:
+
+Core Java programming
+
+Object-Oriented Programming (OOP)
+
+Java Swing GUI development
+
+JDBC connectivity
+
+SQL database operations
+
+Exception handling
+
+Real-world business workflow design
+
+📌 Note
+
+This project is adapted from an open-source GitHub repository and enhanced for academic, learning, and resume-building purposes.
+All features were studied, modified, and understood to strengthen practical Java and database skills.
+📄 License
+
+This project is intended for educational and learning use only.
+
+---
+
