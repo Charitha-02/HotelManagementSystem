@@ -17,11 +17,11 @@ The project simulates a real-world hotel workflow and demonstrates how software 
 
 ## 🎯 Objectives
 
-- To reduce manual work in hotel management  
-- To manage customer and room records efficiently  
-- To provide quick booking and billing services  
-- To maintain accurate and secure hotel data  
-- To understand real-world Java application development  
+- Reduce manual work in hotel management  
+- Manage customer and room records efficiently  
+- Provide quick booking and billing services  
+- Maintain accurate and secure hotel data  
+- Understand real-world Java application development  
 
 ---
 
@@ -33,9 +33,9 @@ The project simulates a real-world hotel workflow and demonstrates how software 
 - Check-in and check-out handling  
 - Automatic bill calculation  
 - Room status update (Available / Occupied)  
-- Database integration using MySQL  
+- MySQL database integration  
 - User-friendly Java Swing GUI  
-- Error handling and validation  
+- Error handling and input validation  
 
 ---
 
@@ -53,29 +53,29 @@ The project simulates a real-world hotel workflow and demonstrates how software 
 ## 🧩 System Modules
 
 ### 1. Login Module
-- Authenticates hotel staff
-- Provides secure system access
+- Authenticates hotel staff  
+- Provides secure system access  
 
 ### 2. Customer Module
-- Add new customers
-- Store personal and identity details
-- Assign rooms during check-in
+- Add and manage customer details  
+- Store identity and personal information  
+- Assign rooms during check-in  
 
 ### 3. Room Management Module
-- Displays available and occupied rooms
-- Automatically updates room status
+- Display available and occupied rooms  
+- Automatically update room status  
 
 ### 4. Booking Module
-- Handles room reservations
-- Links customers with room data
+- Handle room reservations  
+- Link customers with room information  
 
 ### 5. Billing Module
-- Calculates total bill based on stay duration
-- Displays deposit and final amount
+- Calculate bill based on stay duration  
+- Display deposit and final amount  
 
 ### 6. Database Module
-- Stores customer, room, and booking data
-- Ensures persistent storage
+- Store customer, room, and booking data  
+- Ensure persistent data storage  
 
 ---
 
@@ -96,29 +96,13 @@ HotelManagementSystem/
 │ └── billing.png
 │
 ├── queries.sql
-└── README.mdHotelManagementSystem/
-│
-├── src/
-│ ├── database/
-│ ├── model/
-│ ├── service/
-│ └── ui/
-│
-├── images/
-│ ├── login.png
-│ ├── dashboard.png
-│ ├── booking.png
-│ └── billing.png
-│
-├── queries.sql
 └── README.md
-
 
 ---
 
 ## ⚙️ Prerequisites
 
-Before running the project, ensure the following are installed:
+Ensure the following are installed before running the project:
 
 - Java JDK 8 or higher  
 - MySQL Server  
@@ -130,35 +114,32 @@ Before running the project, ensure the following are installed:
 ## 🗄️ Database Configuration
 
 1. Start MySQL server.
-2. Create a database:
-   ```sql
-   CREATE DATABASE hotel_db;
-Select the database:
 
+2. Create database:
+
+```sql
+CREATE DATABASE hotel_db;
 USE hotel_db;
-
-
-Import SQL file:
+Import database tables:
 
 source queries.sql;
 
 
-Update database credentials inside the Java connection file.
+Update MySQL username and password in Conn.java.
 ▶️ How to Run the Application
 
-Clone or download the repository.
-
+Clone the repository or download the ZIP file.
+git clone https://github.com/Charitha-02/HotelManagementSystem.git
 Open the project in VS Code or Eclipse.
 
 Ensure MySQL server is running.
 
-Compile and run the main Java file.
+Compile and run the main Java file (Login.java or HotelManagementSystem.java).
 
-The Hotel Management System window will appear.
-
+The application window will open.
 📸 Screenshots
 
-Screenshots of the application interface are available in the images folder.
+Screenshots of the application interface are available in the images folder:
 
 Login Page
 
@@ -169,7 +150,6 @@ Customer Registration
 Room Booking
 
 Billing Window
-
 📚 Learning Outcomes
 
 Through this project, the following concepts were practiced:
@@ -195,6 +175,3 @@ All features were studied, modified, and understood to strengthen practical Java
 📄 License
 
 This project is intended for educational and learning use only.
-
----
-
