@@ -111,7 +111,7 @@ Ensure the following are installed before running the project:
 
 ---
 
-## 🗄️ Database Configuration
+### 🗄️ Database Configuration
 
 1. Start MySQL server.
 
@@ -121,10 +121,7 @@ Ensure the following are installed before running the project:
 CREATE DATABASE hotel_db;
 USE hotel_db;
 Import database tables:
-
 source queries.sql;
-
-
 Update MySQL username and password in Conn.java.
 How to Run the Application
 
@@ -138,6 +135,8 @@ Compile and run the main Java file
 (Login.java or HotelManagementSystem.java).
 
 The application window will open.
+
+
 📸 Screenshots
 
 Screenshots of the application interface are available in the images folder:
