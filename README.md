@@ -120,7 +120,29 @@ USE hotel_db;
 Import database tables:
 source queries.sql;
 Update MySQL username and password in Conn.java.
-How to Run the Application
+## 🗄️ Database Configuration
+
+1. Start the MySQL server.
+
+2. Create the database:
+
+```sql
+CREATE DATABASE hotel_db;
+USE hotel_db;
+Import the database tables:
+
+source queries.sql;
+
+
+Update MySQL username and password in Conn.java.
+Import the database tables:
+
+source queries.sql;
+
+
+Update MySQL username and password in Conn.java.
+
+▶️ How to Run the Application
 
 Clone the repository:
 
@@ -149,27 +171,6 @@ Customer Registration
 Room Booking
 
 Billing Window
-
-📚 Learning Outcomes
-
-Core Java programming
-
-Object-Oriented Programming (OOP)
-
-Java Swing GUI development
-
-JDBC database connectivity
-
-SQL operations
-
-Exception handling
-
-Real-world application design
-
-📌 Note
-
-This project is adapted from an open-source GitHub repository and enhanced for academic and learning purposes.
-The code was studied, modified, and understood to strengthen practical Java and database skills.
 
 📄 License
 
