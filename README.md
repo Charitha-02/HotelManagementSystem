@@ -126,7 +126,7 @@ source queries.sql;
 
 
 Update MySQL username and password in Conn.java.
-▶️ How to Run the Application
+How to Run the Application
 
 Clone the repository or download the ZIP file.
 git clone https://github.com/Charitha-02/HotelManagementSystem.git
@@ -134,7 +134,8 @@ Open the project in VS Code or Eclipse.
 
 Ensure MySQL server is running.
 
-Compile and run the main Java file (Login.java or HotelManagementSystem.java).
+Compile and run the main Java file
+(Login.java or HotelManagementSystem.java).
 
 The application window will open.
 📸 Screenshots
@@ -150,6 +151,7 @@ Customer Registration
 Room Booking
 
 Billing Window
+
 📚 Learning Outcomes
 
 Through this project, the following concepts were practiced:
@@ -172,6 +174,7 @@ Real-world business workflow design
 
 This project is adapted from an open-source GitHub repository and enhanced for academic, learning, and resume-building purposes.
 All features were studied, modified, and understood to strengthen practical Java and database skills.
+
 📄 License
 
 This project is intended for educational and learning use only.
