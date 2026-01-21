@@ -107,7 +107,6 @@ Before running the project, ensure the following are installed:
 - Git (optional)  
 
 ---
-
 ## 🗄️ Database Setup
 
 1. Start the MySQL server.
@@ -118,32 +117,11 @@ Before running the project, ensure the following are installed:
 CREATE DATABASE hotel_db;
 USE hotel_db;
 Import database tables:
-source queries.sql;
-Update MySQL username and password in Conn.java.
-## 🗄️ Database Configuration
-
-1. Start the MySQL server.
-
-2. Create the database:
-
-```sql
-CREATE DATABASE hotel_db;
-USE hotel_db;
-Import the database tables:
 
 source queries.sql;
 
 
 Update MySQL username and password in Conn.java.
-Import the database tables:
-
-source queries.sql;
-
-
-Update MySQL username and password in Conn.java.
-
-▶️ How to Run the Application
-
 Clone the repository:
 
 git clone https://github.com/Charitha-02/HotelManagementSystem.git
@@ -160,17 +138,7 @@ The application window will launch.
 
 📸 Screenshots
 
-Application screenshots are available in the images folder:
-
-Login Page
-
-Dashboard
-
-Customer Registration
-
-Room Booking
-
-Billing Window
+Screenshots are available in the images folder.
 
 📄 License
 
